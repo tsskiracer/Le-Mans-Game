@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class F1car extends Vehicle
+public class F1car 
 	{
 		static String vUp1="";
 		static String vUp2="";
@@ -17,10 +17,11 @@ public class F1car extends Vehicle
 			{
 				Upgrades.fillList();
 				vUp1+=Upgrades.upgrades.get(0).getName();
-				vUp2+=Upgrades.upgrades.get(1).getName();
-				vUp3+=Upgrades.upgrades.get(2).getName();
-				vUp4+=Upgrades.upgrades.get(4).getName();
+				vUp2+=Upgrades.upgrades.get(2).getName();
+				vUp3+=Upgrades.upgrades.get(3).getName();
+				vUp4+=Upgrades.upgrades.get(1).getName();
 			}
+		
 		public static void upgrades()
 
 			{

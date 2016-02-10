@@ -105,7 +105,8 @@ public class Upgrades
 			upgrades.add(new Upgrades("Weight Reduction", 20, 1, 10, 2, 2, 3, 1, 4));
 			upgrades.add(new Upgrades("KERS", 9, 1, 2, 2, 16, 3, 3, 4));
 			upgrades.add(new Upgrades("Drag Reduction", 4, 1, 6, 2, 19, 3, 12, 4));
-			upgrades.add(new Upgrades("Turbo", 3, 1, 7, 2, 1, 3, 14, 4));
+			upgrades.add(new Upgrades("Suspension", 3, 1, 7, 2, 1, 3, 14, 4));
+			upgrades.add(new Upgrades("Downforce Increase", 3, 1, 7, 2, 1, 3, 14, 4));
 			
 		}
 	}

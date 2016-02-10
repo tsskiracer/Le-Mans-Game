@@ -1,27 +1,24 @@
 import java.util.Scanner;
 
-public class p919 
-	{	
+public class p917k
+	{
 		static String vUp1="";
 		static String vUp2="";
 		static String vUp3="";
 		static String vUp4="";
 		static int speed=1;
-		static String circuit="WEC LMP1";
-		static double fuel=68.5;
+		static String circuit="S Class Le Mans";
+		static double fuel=120.0;
 		static int tireWear=100;
 		static int counter=0;
-		
-		
 		public static void getUpgrades()
 			{
 				Upgrades.fillList();
-				vUp1+=Upgrades.upgrades.get(0).getName();
-				vUp2+=Upgrades.upgrades.get(1).getName();
-				vUp3+=Upgrades.upgrades.get(2).getName();
-				vUp4+=Upgrades.upgrades.get(4).getName();
+				vUp1+=Upgrades.upgrades.get(2).getName();
+				vUp2+=Upgrades.upgrades.get(4).getName();
+				vUp3+=Upgrades.upgrades.get(5).getName();
+				vUp4+=Upgrades.upgrades.get(6).getName();
 			}
-		
 		public static void upgrades()
 			{
 			String answer="";	

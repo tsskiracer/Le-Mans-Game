@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class p911GTLM 
+public class p911GTLM
 	{
 		static String vUp1="";
 		static String vUp2="";
@@ -11,14 +11,16 @@ public class p911GTLM
 		static double fuel;
 		static int tireWear=100;
 		static int counter=0;
+		
 		public static void getUpgrades()
 			{
 				Upgrades.fillList();
 				vUp1+=Upgrades.upgrades.get(0).getName();
 				vUp2+=Upgrades.upgrades.get(2).getName();
 				vUp3+=Upgrades.upgrades.get(4).getName();
-				vUp4+=Upgrades.upgrades.get(0).getName();
+				vUp4+=Upgrades.upgrades.get(5).getName();
 			}
+		
 		public static void upgrades()
 			{
 			String answer="";	
