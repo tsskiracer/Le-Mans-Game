@@ -12,7 +12,7 @@ public class deltaWing
 				static String vUp4="";
 				static int speed=1;
 				static String circuit="IMSA Prototype";
-				static double fuel=53.0;
+				static double fuelTank=53.0;
 				static int tireWear=100;
 				static int counter=0;
 				public static void getUpgrades()
